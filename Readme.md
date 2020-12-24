@@ -61,7 +61,7 @@ In this project, you will following the below steps:
    ![imag](./images/17_Notepad Pipeline Run from studio.png)
     
    The endpoints are consumed as shown in ML studio  
-   ![imag](./images/18_Notepad - End point consuption.png)
+   ![imag](./images/18_Notepad - End point consuption.PNG)
      
 * Documentation
   The video is created to explain entire process of AUTO ML studio
