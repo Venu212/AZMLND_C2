@@ -30,7 +30,7 @@ The best model is choosen is VotingEnsemble that ha resulted in 91.9% Accuracy.
  
 * Deploy the best model
 The model(deploy-automl) is deployed using Azure Container instance(ACI). REST API is generated and URI for Swagger is also generated. Applications insights is set to false.
-![imag](./images/6_AutoMLDeployed.PNG)
+![imag](./images/5_AutoMLDeployed.PNG)
     
    
 * Enable logging
