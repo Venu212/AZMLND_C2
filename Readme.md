@@ -19,7 +19,9 @@ In this project, you will following the below steps:
 
 * Automated ML Experiment
   Bank marketing data set is registered. A classification algorithm is selected and an experiment is created and executed on a standard_ds12_v2 cluster.
+  
  ![imag](./images/2_Bank Marketing Data.PNG)
+ 
  ![imag](./images/3_Bike Experiment_Completed.PNG)
  
  The best model is choosen is VotingEnsemble that ha resulted in 91.9% Accuracy.
@@ -56,10 +58,10 @@ In this project, you will following the below steps:
    ![imag](./images/15_Notepad- Publish endpoint.png)
    
    The pipeline run is dispayed in ML studio
-    ![imag](./images/17_Notepad Pipeline Run from studio.png)
+   ![imag](./images/17_Notepad Pipeline Run from studio.png)
     
    The endpoints are consumed as shown in ML studio  
-     ![imag](./images/18_Notepad - End point consuption.png)
+   ![imag](./images/18_Notepad - End point consuption.png)
      
 * Documentation
   The video is created to explain entire process of AUTO ML studio
