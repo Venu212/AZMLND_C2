@@ -20,16 +20,17 @@ In this project, you will following the below steps:
 * Automated ML Experiment
   Bank marketing data set is registered. A classification algorithm is selected and an experiment is created and executed on a standard_ds12_v2 cluster.
  
-	![imag](./images/2_Bank MarketingData.PNG)
+	![imag](./images/2_BankMarketingData.PNG)
  
-	![imag](./images/3_Bike ExperimentCompleted.PNG)
+	![imag](./images/3_BikeExperimentCompleted.PNG)
  
-The best model is choosen is VotingEnsemble that ha resulted in 91.9% Accuracy. ![imag](./images/4_Voting Ensemble-2.PNG)
+The best model is choosen is VotingEnsemble that ha resulted in 91.9% Accuracy. 
+![imag](./images/4_VotingEnsemble-2.PNG)
  
  
 * Deploy the best model
 The model(deploy-automl) is deployed using Azure Container instance(ACI). REST API is generated and URI for Swagger is also generated. Applications insights is set to false.
-![imag](./images/6_AutoMLdeployed.PNG)
+![imag](./images/6_AutoMLDeployed.PNG)
     
    
 * Enable logging
@@ -38,7 +39,7 @@ The model(deploy-automl) is deployed using Azure Container instance(ACI). REST A
      
 * Swagger Documentation
     Swagger.json file is downloaded and port number is changed 9000 as default one is used. Swagger API is tested and Serve.py is executed to enable Swagger Get and POST API from local host
-    ![imag](./images/8_Logs.pyScript.PNG)
+    ![imag](./images/8_LogsScript.PNG)
     ![imag](./images/9_SwaggerOnLocalhost.PNG)
     
 * Consume model endpoints
@@ -51,7 +52,7 @@ The model(deploy-automl) is deployed using Azure Container instance(ACI). REST A
    
    The pipeline is created for BankMarketing_experiment and it is published.
    ![imag](./images/12_Notepad-CreateMLPipeline.PNG)
-   ![imag](./images/13_Notepad -CreateMLPipeline(2).PNG)
+   ![imag](./images/13_Notepad-CreateMLPipeline(2).PNG)
    
    The rest endpoint is created and published
    ![imag](./images/15_Notepad-PublishEndpoint.PNG)
