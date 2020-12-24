@@ -69,5 +69,6 @@
 # Waiting:       92  137  28.3    151     176
 # Total:        114  160  28.0    172     199#
 
+ab -n 10 -v 4 -p data.json -T 'application/json' -H 'Authorization: yIZzhdfoi6PIVxqoOCGxUo01ScBO0riL' http://05a26700-d0d1-4e5e-b5b0-d6bdca74319a.southcentralus.azurecontainer.io/score
 
- ab -n 10 -v 4 -p data.json -T 'application/json' -H 'Authorization: Bearer REPLACE_WITH_KEY' http://REPLACE_WITH_API_URL/score
+ #ab -n 10 -v 4 -p data.json -T 'application/json' -H 'Authorization: Bearer REPLACE_WITH_KEY' http://REPLACE_WITH_API_URL/score
