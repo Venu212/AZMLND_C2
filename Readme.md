@@ -24,8 +24,7 @@ In this project, you will following the below steps:
  
  ![imag](./images/3_Bike Experiment_Completed.PNG)
  
- The best model is choosen is VotingEnsemble that ha resulted in 91.9% Accuracy.
- ![imag](./images/4_Voting Ensemble-2.PNG)
+ The best model is choosen is VotingEnsemble that ha resulted in 91.9% Accuracy. ![imag](./images/4_Voting Ensemble-2.PNG)
  
  
 * Deploy the best model
