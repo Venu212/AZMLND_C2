@@ -1,4 +1,4 @@
- # Operationalizing Machine Learning
+# Operationalizing Machine Learning
 
 ## Overview
 This project is part of the Udacity Azure ML Nanodegree.
@@ -19,17 +19,17 @@ In this project, you will following the below steps:
 
 * Automated ML Experiment
   Bank marketing data set is registered. A classification algorithm is selected and an experiment is created and executed on a standard_ds12_v2 cluster.
-  
- ![imag](./images/2_Bank Marketing Data.PNG)
  
- ![imag](./images/3_Bike Experiment_Completed.PNG)
+	![imag](./images/2_Bank Marketing Data.PNG)
  
- The best model is choosen is VotingEnsemble that ha resulted in 91.9% Accuracy. ![imag](./images/4_Voting Ensemble-2.PNG)
+	![imag](./images/3_Bike Experiment_Completed.PNG)
+ 
+The best model is choosen is VotingEnsemble that ha resulted in 91.9% Accuracy. ![imag](./images/4_Voting Ensemble-2.PNG)
  
  
 * Deploy the best model
-   The model(deploy-automl) is deployed using Azure Container instance(ACI). REST API is generated and URI for Swagger is also generated. Applications insights is set to false.
-    ![imag](./images/6_AutoML deployed.PNG)
+The model(deploy-automl) is deployed using Azure Container instance(ACI). REST API is generated and URI for Swagger is also generated. Applications insights is set to false.
+	![imag](./images/6_AutoML deployed.PNG)
     
    
 * Enable logging
@@ -54,10 +54,10 @@ In this project, you will following the below steps:
    ![imag](./images/13_Notepad -Create ML pipeline (2).PNG)
    
    The rest endpoint is created and published
-   ![imag](./images/15_Notepad- Publish endpoint.png)
+   ![imag](./images/15_Notepad- Publish endpoint.PNG)
    
    The pipeline run is dispayed in ML studio
-   ![imag](./images/17_Notepad Pipeline Run from studio.png)
+   ![imag](./images/17_Notepad Pipeline Run from studio.PNG)
     
    The endpoints are consumed as shown in ML studio  
    ![imag](./images/18_Notepad - End point consuption.PNG)
