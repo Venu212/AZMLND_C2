@@ -20,16 +20,16 @@ In this project, you will following the below steps:
 * Automated ML Experiment
   Bank marketing data set is registered. A classification algorithm is selected and an experiment is created and executed on a standard_ds12_v2 cluster.
  
-	![imag](./images/2_BankMarketingData.PNG)
+	![imag](./images/2_Bank MarketingData.PNG)
  
-	![imag](./images/3_BikeExperimentCompleted.PNG)
+	![imag](./images/3_Bike ExperimentCompleted.PNG)
  
 The best model is choosen is VotingEnsemble that ha resulted in 91.9% Accuracy. ![imag](./images/4_Voting Ensemble-2.PNG)
  
  
 * Deploy the best model
 The model(deploy-automl) is deployed using Azure Container instance(ACI). REST API is generated and URI for Swagger is also generated. Applications insights is set to false.
-	![imag](./images/6_AutoMLDeployed.PNG)
+![imag](./images/6_AutoMLdeployed.PNG)
     
    
 * Enable logging
