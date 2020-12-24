@@ -22,46 +22,46 @@ In this project, you will following the below steps:
   
  ![imag](./images/2_Bank Marketing Data.png)
  
- ![imag](./images/3_Bike Experiment_Completed)
+ ![imag](./images/3_Bike Experiment_Completed.png)
  
  The best model is choosen is VotingEnsemble that ha resulted in 91.9% Accuracy.
- ![imag](./images/4_Voting Ensemble-2)
+ ![imag](./images/4_Voting Ensemble-2.png)
  
  
 * Deploy the best model
    The model(deploy-automl) is deployed using Azure Container instance(ACI). REST API is generated and URI for Swagger is also generated. Applications insights is set to false.
-    ![imag](./images/6_AutoML deployed)
+    ![imag](./images/6_AutoML deployed.png)
     
    
 * Enable logging
 	Logs.py is loaded and applications insights is set to True.
-     ![imag](./images/7_InsightsEnabled)
+     ![imag](./images/7_InsightsEnabled.png)
      
 * Swagger Documentation
     Swagger.json file is downloaded and port number is changed 9000 as default one is used. Swagger API is tested and Serve.py is executed to enable Swagger Get and POST API from local host
-    ![imag](./images/8_Logs.py script)
-    ![imag](./images/9_Swagger on localhost)
+    ![imag](./images/8_Logs.py script.png)
+    ![imag](./images/9_Swagger on localhost.png)
     
 * Consume model endpoints
     Endpoint is modified with required suitble URI and key. This will generate data.json. The benchmark file is executed.
-      ![imag](./images/10_benchmark.sh running)
+      ![imag](./images/10_benchmark.sh running.png)
       
 * Create and publish a pipeline
    In the notepad, the bank marketing data is loaded .
-   ![imag](./images/11_Notepad-Experiment)
+   ![imag](./images/11_Notepad-Experiment.png)
    
    The pipeline is created for BankMarketing_experiment and it is published.
-   ![imag](./images/12_Notepad -Create ML pipeline)
-   ![imag](./images/13_Notepad -Create ML pipeline (2))
+   ![imag](./images/12_Notepad -Create ML pipeline.png)
+   ![imag](./images/13_Notepad -Create ML pipeline (2).png)
    
    The rest endpoint is created and published
-   ![imag](./images/15_Notepad- Publish endpoint)
+   ![imag](./images/15_Notepad- Publish endpoint.png)
    
    The pipeline run is dispayed in ML studio
-    ![imag](./images/17_Notepad Pipeline Run from studio)
+    ![imag](./images/17_Notepad Pipeline Run from studio.png)
     
    The endpoints are consumed as shown in ML studio  
-     ![imag](./images/18_Notepad - End point consuption)
+     ![imag](./images/18_Notepad - End point consuption.png)
      
 * Documentation
   The video is created to explain entire process of AUTO ML studio
