@@ -19,9 +19,7 @@ In this project, you will following the below steps:
 
 * Automated ML Experiment
   Bank marketing data set is registered. A classification algorithm is selected and an experiment is created and executed on a standard_ds12_v2 cluster.
-  
  ![imag](./images/2_Bank Marketing Data.PNG)
- 
  ![imag](./images/3_Bike Experiment_Completed.PNG)
  
  The best model is choosen is VotingEnsemble that ha resulted in 91.9% Accuracy.
