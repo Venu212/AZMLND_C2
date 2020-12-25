@@ -51,6 +51,8 @@ In this project, the following steps are executed :
 	
 	![imag](./images/8_LogsScript.PNG)
 	
+	![imag](./images/Logs.py.png)
+	
 	![imag](./images/Logs.py%20-%20Insights%20enabled.PNG)
      	
      
