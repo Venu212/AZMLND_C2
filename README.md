@@ -18,6 +18,7 @@ The Architecture:
 In this project, the following steps are executed :
 
 * Automated ML Experiment:
+  * `Dataset`:
   Bank marketing data set is registered. A classification algorithm is selected and an experiment is created and executed on a standard_ds12_v2 cluster.
  
 	![BankMarketing Data](./images/2_BankMarketingData.PNG)
@@ -28,38 +29,45 @@ In this project, the following steps are executed :
 	![imag](./images/4_VotingEnsemble-2.PNG)
  
  
-* Deploy the best model:
+* `Deploy the best model`:
+
 	The model(deploy-automl) is deployed using Azure Container instance(ACI). 
 	REST API is generated and URI for Swagger is also generated. 
 	Applications insights is set to false.
 	
 	![imag](./images/5_AutoMLDeployed.PNG)
     
-* Enable logging:
+* `Enable logging`:
+
 	Logs.py is loaded and applications insights is set to 'True'.
+	
 	![imag](./images/7_InsightsEnabled.PNG)
-     	![imag](./images/13_Notepad-CreateMLPipeline (2).PNG)
+     	
      
-* Swagger Documentation:
+* `Swagger Documentation`:
+
     Swagger.json file is downloaded and port number is changed 9000 as default one is used. 
     Swagger API is tested and Serve.py is executed to enable Swagger 'Get' and 'POST' API from local host
     	![imag](./images/8_LogsScript.PNG)
     	![imag](./images/9_SwaggerOnLocalhost.PNG)
     
-* Consume model using endpoint:
+* `Consume model using endpoint`:
+
     Endpoint is modified with required suitable URI and key. This will generate data.json. 
     The benchmark file is executed.
     	![imag](./images/10_benchmarkRunning.PNG)
       
-* Create and publish a pipeline
+* `Create and publish a pipeline`:
+
    	In the notepad, the bank marketing data is loaded .
    	![imag](./images/11_Notepad-Experiment.PNG)
    
-* The pipeline is created for BankMarketing_experiment and it is published.
+* 'The pipeline' is created for BankMarketing_experiment and it is published.
    	![imag](./images/12_Notepad-CreateMLPipeline.PNG)
    	![imag](./images/13_Notepad-CreateMLPipeline%20(2).PNG)
+	![imag](./images/13_Notepad-CreateMLPipeline (2).PNG)
    
-* The rest endpoint is created and published
+* The rest 'endpoint' is created and published
    	![imag](./images/15_Notepad-PublishEndpoint.PNG)
    
 * The pipeline run is dispayed in ML studio
@@ -73,4 +81,15 @@ In this project, the following steps are executed :
   
   [Operationalizing Machine Learning from Azure](https://youtu.be/-DrpDr3xqic)
   
-  
+##  The steps to improve the project
+	* The model performance can be increased by analyzing the the Bank Marketing data and ensuring that it is balanced properly.
+	Either oversampling or undersampling methods can be used
+	
+	* We can check train and test set split methods like stratefied split and holdout based validation to check if that results in better accuracy
+	We can fine tune all hyper parameters and check if it can enhance performance of the model.
+	
+	* The present model achieved accuracy of 91.5% which is considered as good accuracy. 
+	Further more deep learning models can be used to further enhance model accuracy
+	
+	
+	
