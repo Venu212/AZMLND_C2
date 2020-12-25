@@ -5,7 +5,7 @@ This project is part of the Udacity Azure ML Nanodegree.
 In this project, a cloud-based machine learning production model is created, deployed it in Azure container instance, and consumed it using REST API.
 
 ## Summary
-This dataset contains data about [Bank Marketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv"). The details about each applicant is available along with historical transactional data to predict whether the applicant will subscribe for long term deposit or not. A classification algorithm is used to train model and the best model that provides better accuracy is selected and deployed. The deployed model provides end point to send request to REST API and also Swagger URI. Document is generated using swagger and models are consumed using end point.
+This dataset contains data about [Bank Marketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-	data/bankmarketing_train.csv"). The details about each applicant is available along with historical transactional data to predict whether the applicant will subscribe for long term deposit or not. A classification algorithm is used to train model and the best model that provides better accuracy is selected and deployed. The deployed model provides end point to send request to REST API and also Swagger URI. Document is generated using swagger and models are consumed using end point.
 AutoML pipeline is created using Axure SDK in notebook and delpoyed.
 
 The Architecture:
@@ -15,57 +15,61 @@ The Architecture:
 
 
 # Project main steps
-In this project, you will following the below steps:
+In this project, the following steps are executed :
 
-* Automated ML Experiment
+* Automated ML Experiment:
   Bank marketing data set is registered. A classification algorithm is selected and an experiment is created and executed on a standard_ds12_v2 cluster.
  
 	![BankMarketing Data](./images/2_BankMarketingData.PNG)
  
 	![imag](./images/3_BikeExperimentCompleted.PNG)
  
-The best model is choosen is VotingEnsemble that ha resulted in 91.9% Accuracy. 
-![imag](./images/4_VotingEnsemble-2.PNG)
+	The best model choosen is VotingEnsemble that haa resulted in 91.9% Accuracy. 
+	![imag](./images/4_VotingEnsemble-2.PNG)
  
  
-* Deploy the best model
-The model(deploy-automl) is deployed using Azure Container instance(ACI). REST API is generated and URI for Swagger is also generated. Applications insights is set to false.
-![imag](./images/5_AutoMLDeployed.PNG)
+* Deploy the best model:
+	The model(deploy-automl) is deployed using Azure Container instance(ACI). 
+	REST API is generated and URI for Swagger is also generated. 
+	Applications insights is set to false.
+	
+	![imag](./images/5_AutoMLDeployed.PNG)
     
-   
-* Enable logging
-	Logs.py is loaded and applications insights is set to True.
+* Enable logging:
+	Logs.py is loaded and applications insights is set to 'True'.
 	![imag](./images/7_InsightsEnabled.PNG)
      	![imag](./images/13_Notepad-CreateMLPipeline (2).PNG)
      
-* Swagger Documentation
-    Swagger.json file is downloaded and port number is changed 9000 as default one is used. Swagger API is tested and Serve.py is executed to enable Swagger Get and POST API from local host
-    ![imag](./images/8_LogsScript.PNG)
-    ![imag](./images/9_SwaggerOnLocalhost.PNG)
+* Swagger Documentation:
+    Swagger.json file is downloaded and port number is changed 9000 as default one is used. 
+    Swagger API is tested and Serve.py is executed to enable Swagger 'Get' and 'POST' API from local host
+    	![imag](./images/8_LogsScript.PNG)
+    	![imag](./images/9_SwaggerOnLocalhost.PNG)
     
-* Consume model endpoints
-    Endpoint is modified with required suitble URI and key. This will generate data.json. The benchmark file is executed.
-      ![imag](./images/10_benchmarkRunning.PNG)
+* Consume model using endpoint:
+    Endpoint is modified with required suitable URI and key. This will generate data.json. 
+    The benchmark file is executed.
+    	![imag](./images/10_benchmarkRunning.PNG)
       
 * Create and publish a pipeline
-   In the notepad, the bank marketing data is loaded .
-   ![imag](./images/11_Notepad-Experiment.PNG)
+   	In the notepad, the bank marketing data is loaded .
+   	![imag](./images/11_Notepad-Experiment.PNG)
    
-   The pipeline is created for BankMarketing_experiment and it is published.
-   ![imag](./images/12_Notepad-CreateMLPipeline.PNG)
-   ![imag](./images/13_Notepad-CreateMLPipeline%20(2).PNG)
+* The pipeline is created for BankMarketing_experiment and it is published.
+   	![imag](./images/12_Notepad-CreateMLPipeline.PNG)
+   	![imag](./images/13_Notepad-CreateMLPipeline%20(2).PNG)
    
-   The rest endpoint is created and published
-   ![imag](./images/15_Notepad-PublishEndpoint.PNG)
+* The rest endpoint is created and published
+   	![imag](./images/15_Notepad-PublishEndpoint.PNG)
    
-   The pipeline run is dispayed in ML studio
-   ![imag](./images/17_Notepad-PipelineRunFromStudio.PNG)
+* The pipeline run is dispayed in ML studio
+   	![imag](./images/17_Notepad-PipelineRunFromStudio.PNG)
     
-   The endpoints are consumed as shown in ML studio  
-   ![imag](./images/18_Notepad-EndPointConsuption.PNG)
+* The endpoints are consumed as shown in ML studio  
+  	![imag](./images/18_Notepad-EndPointConsuption.PNG)
      
 * Documentation
-  The video is created to explain entire process of AUTO ML studio
+  	The video is created to explain entire process of AUTO ML studio
   
   [Operationalizing Machine Learning from Azure](https://youtu.be/-DrpDr3xqic)
   
