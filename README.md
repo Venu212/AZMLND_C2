@@ -27,6 +27,11 @@ In this project, the following steps are executed :
  
 	The best model choosen is VotingEnsemble that haa resulted in 91.9% Accuracy. 
 	![imag](./images/4_VotingEnsemble-2.PNG)
+	
+  * **Metrics**:	
+	![imag](./images/7_Metric_precision_Recall.PNG)
+	![imag](./images/10_2_2%20Metrics.PNG)
+	
  
  
 * ### **`Deploy the best model`**:
@@ -55,9 +60,10 @@ In this project, the following steps are executed :
 
     Endpoint is modified with required suitable URI and key. This will generate data.json. 
     The benchmark file is executed.
+    	![imag](.images/endpoint.PNG)
     	![imag](./images/10_benchmarkRunning.PNG)
  
-### ** `Create Pipeline and publish`** 
+###  `Create Pipeline and publish` 
 * ### **`Create and publish a pipeline`**:
 
    	In the notepad, the bank marketing data is loaded .
@@ -74,7 +80,7 @@ In this project, the following steps are executed :
 * **The pipeline run is dispayed in ML studio**
    	![imag](./images/17_Notepad-PipelineRunFromStudio.PNG)
     
-* **The endpoints are consumed as shown in ML studio  
+* **The endpoints are consumed as shown in ML studio**  
   	![imag](./images/18_Notepad-EndPointConsuption.PNG)
      
 * ### **Documentation**
