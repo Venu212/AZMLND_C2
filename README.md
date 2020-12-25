@@ -36,7 +36,7 @@ The model(deploy-automl) is deployed using Azure Container instance(ACI). REST A
 * Enable logging
 	Logs.py is loaded and applications insights is set to True.
 	![imag](./images/7_InsightsEnabled.PNG)
-     	![imag](./images/13_Notepad-CreateMLPipeline(2).PNG)
+     	![imag](./images/13_Notepad-CreateMLPipeline (2).PNG)
      
 * Swagger Documentation
     Swagger.json file is downloaded and port number is changed 9000 as default one is used. Swagger API is tested and Serve.py is executed to enable Swagger Get and POST API from local host
