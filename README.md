@@ -91,13 +91,13 @@ In this project, the following steps are executed :
   
 ##  The steps to improve the project
 	* The model performance can be increased by analyzing the the Bank Marketing data and ensuring that it is balanced properly.
-	Either oversampling or undersampling methods can be used
+	  Either oversampling or undersampling methods can be used
 	
 	* We can check train and test set split methods like stratefied split and holdout based validation to check if that results in better accuracy
-	We can fine tune all hyper parameters and check if it can enhance performance of the model.
+	  We can fine tune all hyper parameters and check if it can enhance performance of the model.
 	
 	* The present model achieved accuracy of 91.5% which is considered as good accuracy. 
-	Further more deep learning models can be used to further enhance model accuracy
+	  Further more deep learning models can be used to further enhance model accuracy
 	
 	
 	
