@@ -5,7 +5,7 @@ This project is part of the Udacity Azure ML Nanodegree.
 In this project, a cloud-based machine learning production model is created, deployed it in Azure container instance, and consumed it using REST API.
 
 ## Summary
-This dataset contains data about bank marketing. The details about each applicant is available along with historical transactional data to predict whether customer is eligible for loan or not. A classification algorithm is used to train model and the best model is deployed. Document is generated using swagger and modelis consumed using end point.
+This dataset contains data about [Bank Marketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv"). The details about each applicant is available along with historical transactional data to predict whether the applicant will subscribe for long term deposit or not. A classification algorithm is used to train model and the best model that provides better accuracy is selected and deployed. The deployed model provides end point to send request to REST API and also Swagger URI. Document is generated using swagger and models are consumed using end point.
 AutoML pipeline is created using Axure SDK in notebook and delpoyed.
 
 The Architecture:
@@ -20,7 +20,7 @@ In this project, you will following the below steps:
 * Automated ML Experiment
   Bank marketing data set is registered. A classification algorithm is selected and an experiment is created and executed on a standard_ds12_v2 cluster.
  
-	![imag](./images/2_BankMarketingData.PNG)
+	![BankMarketing Data](./images/2_BankMarketingData.PNG)
  
 	![imag](./images/3_BikeExperimentCompleted.PNG)
  
