@@ -47,14 +47,17 @@ In this project, the following steps are executed :
 	Logs.py is loaded and applications insights is set to 'True'.
 	
 	![imag](./images/7_InsightsEnabled.PNG)
+	
+	![imag](./images/8_LogsScript.PNG)
+	
+	![imag](./images/Logs.py%20-%20Insights%20enabled.PNG)
      	
      
 * ### **`Swagger Documentation`**:
 
     Swagger.json file is downloaded and port number is changed 9000 as default one is used. 
     Swagger API is tested and Serve.py is executed to enable Swagger 'Get' and 'POST' API from local host
-    	![imag](./images/8_LogsScript.PNG)
-	![imag](./images/Logs.py%20-%20Insights%20enabled.PNG)
+
     	![imag](./images/9_SwaggerOnLocalhost.PNG)
     
 * ### **`Consume model using endpoint`**:
