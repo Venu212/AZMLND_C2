@@ -58,7 +58,8 @@ In this project, the following steps are executed :
     Swagger.json file is downloaded and port number is changed 9000 as default one is used. 
     Swagger API is tested and Serve.py is executed to enable Swagger 'Get' and 'POST' API from local host
 
-    	![imag](./images/9_SwaggerOnLocalhost.PNG)
+    
+	![imag](./images/9_SwaggerOnLocalhost.PNG)
     
 * ### **`Consume model using endpoint`**:
 
