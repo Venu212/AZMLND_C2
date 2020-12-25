@@ -67,6 +67,8 @@ In this project, the following steps are executed :
     Endpoint is modified with required suitable URI and key. This will generate data.json. 
     
     ![imag](./images/endpoint.PNG)
+    ![imag](./images/9_EndPointAndKey.png)
+    
     The benchmark file is executed.	
     ![imag](./images/10_benchmarkRunning.PNG)
  
