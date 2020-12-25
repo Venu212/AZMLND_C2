@@ -59,11 +59,10 @@ In this project, the following steps are executed :
 * ### **`Consume model using endpoint`**:
 
     Endpoint is modified with required suitable URI and key. This will generate data.json. 
-    The benchmark file is executed.
     
-    	![imag](./images/endpoint.PNG)
-	
-    	![imag](./images/10_benchmarkRunning.PNG)
+    ![imag](./images/endpoint.PNG)
+    The benchmark file is executed.	
+    ![imag](./images/10_benchmarkRunning.PNG)
  
 ###  `Create Pipeline and publish` 
 * ### **`Create and publish a pipeline`**:
