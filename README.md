@@ -60,7 +60,9 @@ In this project, the following steps are executed :
 
     Endpoint is modified with required suitable URI and key. This will generate data.json. 
     The benchmark file is executed.
-    	![imag](.images/endpoint.PNG)
+    
+    	![imag](./images/endpoint.PNG)
+	
     	![imag](./images/10_benchmarkRunning.PNG)
  
 ###  `Create Pipeline and publish` 
@@ -72,7 +74,7 @@ In this project, the following steps are executed :
 * 'The pipeline' is created for BankMarketing_experiment and it is published.
    	![imag](./images/12_Notepad-CreateMLPipeline.PNG)
    	![imag](./images/13_Notepad-CreateMLPipeline%20(2).PNG)
-	![imag](./images/13_Notepad-CreateMLPipeline (2).PNG)
+	
    
 * **The rest 'endpoint' is created and published**
    	![imag](./images/15_Notepad-PublishEndpoint.PNG)
