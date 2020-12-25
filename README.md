@@ -57,7 +57,7 @@ In this project, the following steps are executed :
     The benchmark file is executed.
     	![imag](./images/10_benchmarkRunning.PNG)
  
-### ** `Create Pipeline and publish` 
+### ** `Create Pipeline and publish`** 
 * ### **`Create and publish a pipeline`**:
 
    	In the notepad, the bank marketing data is loaded .
@@ -77,7 +77,8 @@ In this project, the following steps are executed :
 * **The endpoints are consumed as shown in ML studio  
   	![imag](./images/18_Notepad-EndPointConsuption.PNG)
      
-* **Documentation**
+* ### **Documentation**
+
   	The video is created to explain entire process of AUTO ML studio
   
   [Operationalizing Machine Learning from Azure](https://youtu.be/-DrpDr3xqic)
