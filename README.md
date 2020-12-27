@@ -86,13 +86,14 @@ In this project, the following steps are executed :
 * 'The pipeline' is created for BankMarketing_experiment and it is published.
    	![imag](./images/12_Notepad-CreateMLPipeline.PNG)
    	![imag](./images/13_Notepad-CreateMLPipeline%20(2).PNG)
+	
    **Pipeline Created in ML Studio**:
 	![imag](./images/11_pipelineRunOverview.PNG)
    
 * **The rest 'endpoint' is created and published**
    	![imag](./images/15_Notepad-PublishEndpoint.PNG)
 	![imag](./images/13_PipelineEndPoint.PNG)
-	![imag](./images/13_1_PipelineRunCompleted.PNG)
+	![imag](./images/14_Notepad-PublishEndPoint.PNG)
    
 * **The pipeline run is dispayed in ML studio**
    	![imag](./images/17_Notepad-PipelineRunFromStudio.PNG)
