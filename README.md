@@ -51,10 +51,10 @@ In this project, the following steps are executed :
 	
 	![imag](./images/8_LogsScript.PNG)
 	
-	![imag](./images/Logs.py.png)
 	
-	![imag](./images/Logs.py%20-%20Insights%20enabled.PNG)
-     	
+	![imag](./images/5_Logs%20Executed.PNG)
+	
+	     	
      
 * ### **`Swagger Documentation`**:
 
@@ -68,8 +68,11 @@ In this project, the following steps are executed :
 
     Endpoint is modified with required suitable URI and key. This will generate data.json. 
     
+    
+    
+    images/8_3_Endpoint.PNG
     ![imag](./images/endpoint.PNG)
-    ![imag](./images/9_EndPointAndKey.png)
+    ![imag](./images/8_1_EndpointExecuted.PNG)
     
     The benchmark file is executed.	
     ![imag](./images/10_benchmarkRunning.PNG)
@@ -83,22 +86,29 @@ In this project, the following steps are executed :
 * 'The pipeline' is created for BankMarketing_experiment and it is published.
    	![imag](./images/12_Notepad-CreateMLPipeline.PNG)
    	![imag](./images/13_Notepad-CreateMLPipeline%20(2).PNG)
-	
+   **Pipeline Created in ML Studio**:
+	![imag](./images/11_pipelineRunOverview.PNG
    
 * **The rest 'endpoint' is created and published**
    	![imag](./images/15_Notepad-PublishEndpoint.PNG)
+	![imag](./images/13_PipelineEndPoint.PNG)
    
 * **The pipeline run is dispayed in ML studio**
    	![imag](./images/17_Notepad-PipelineRunFromStudio.PNG)
+	![imag](./images15_2_PipelineRunDetails.PNG)
     
 * **The endpoints are consumed as shown in ML studio**  
   	![imag](./images/18_Notepad-EndPointConsuption.PNG)
+	![imag](./images/16_PipelineRuns.PNG)
+	
+	![imag](./images/18_PipilineEndpointsActive.PNG)
+	![imag](./images/endpoint%20completed.PNG)
      
 * ### **Documentation**
 
   	The video is created to explain entire process of AUTO ML studio
   
-  [Operationalizing Machine Learning from Azure](https://youtu.be/-DrpDr3xqic)
+  [Operationalizing Machine Learning from Azure](https://www.youtube.com/watch?v=_QTYBboZXrg)
   
 ##  The steps to improve the project
 	* The model performance can be increased by analyzing the the Bank Marketing data and ensuring that it is balanced properly.
