@@ -72,7 +72,7 @@ In this project, the following steps are executed :
     ![imag](./images/8_3_Endpoint.PNG)
 
     ![imag](./images/endpoint.PNG)
-    ![imag](./images/8_1_EndpointExecuted.PNG)
+    
     
     The benchmark file is executed.	
     ![imag](./images/10_benchmarkRunning.PNG)
