@@ -69,8 +69,8 @@ In this project, the following steps are executed :
     Endpoint is modified with required suitable URI and key. This will generate data.json. 
     
     
-    
-    images/8_3_Endpoint.PNG
+    ![imag](./images/8_3_Endpoint.PNG)
+
     ![imag](./images/endpoint.PNG)
     ![imag](./images/8_1_EndpointExecuted.PNG)
     
