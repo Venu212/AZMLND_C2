@@ -92,7 +92,7 @@ In this project, the following steps are executed :
    
 * **The rest 'endpoint' is created and published**
    	![imag](./images/15_Notepad-PublishEndpoint.PNG)
-	![imag](./images/13_PipelineEndPoint.PNG)
+	
 	![imag](./images/14_Notepad-PublishEndPoint.PNG)
    
 * **The pipeline run is dispayed in ML studio**
