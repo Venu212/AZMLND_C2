@@ -97,7 +97,7 @@ In this project, the following steps are executed :
    
 * **The pipeline run is dispayed in ML studio**
    	![imag](./images/17_Notepad-PipelineRunFromStudio.PNG)
-	![imag](./images15_2_PipelineRunDetails.PNG)
+	![imag](./images/15_2_PipelineRunDetails.PNG)
     
 * **The endpoints are consumed as shown in ML studio**  
   	![imag](./images/18_Notepad-EndPointConsuption.PNG)
