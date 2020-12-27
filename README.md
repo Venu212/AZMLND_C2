@@ -87,11 +87,12 @@ In this project, the following steps are executed :
    	![imag](./images/12_Notepad-CreateMLPipeline.PNG)
    	![imag](./images/13_Notepad-CreateMLPipeline%20(2).PNG)
    **Pipeline Created in ML Studio**:
-	![imag](./images/11_pipelineRunOverview.PNG
+	![imag](./images/11_pipelineRunOverview.PNG)
    
 * **The rest 'endpoint' is created and published**
    	![imag](./images/15_Notepad-PublishEndpoint.PNG)
 	![imag](./images/13_PipelineEndPoint.PNG)
+	![imag](./images/images/13_1_PipelineRunCompleted.PNG)
    
 * **The pipeline run is dispayed in ML studio**
    	![imag](./images/17_Notepad-PipelineRunFromStudio.PNG)
